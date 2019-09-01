@@ -8,5 +8,5 @@ x1, x2 = np.meshgrid(np.linspace(-5,5,len),np.linspace(-5,5,len))
 fig = plt.figure()
 ax = fig.add_subplot(111,projection='3d',aspect='equal')
 z=x1*x2
-ax.plot_surface(x1, x2,z, color='r',alpha=0.8)
+ax.plot_surface(x1, x2,z, color='b',alpha=1)
 plt.show()
